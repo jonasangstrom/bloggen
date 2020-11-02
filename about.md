@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+![En Hatt](/images/a hat.jpg)
+
 I am asdf, I have some [projects](/projects)
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
