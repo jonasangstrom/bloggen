@@ -5,7 +5,7 @@ before_script:
 - bundle exec jekyll build
 script:
 - aws s3 sync public/ s3://www.anion.se --acl public-read --delete
-- aws cloudfront create-invalidation --distribution-id E3QYJUZJGVQ7J0 --paths '/*'
+- aws cloudfront create-invalidation --distribution-id E379E2RCB0S37Y --paths '/*'
 branches:
  only:
  - main
