@@ -21,9 +21,8 @@
 title: Hi, my name is Jonas Ångström.
 email: jonas.aangstroem@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a materials scientist and data scientist looking for new job opportunities. Feel free to contact me
-  on [linkedin](https://www.linkedin.com/in/jonasangstrom/) or via [email](mailto:jonas.aangstroem@gmail.com). Sorry
-  for the ugly url. I am waiting for DNS resolution (I think). 
+  I am a materials scientist and data scientist looking for new job opportunities. Feel free to get in touch via linked in or email. Sorry
+  for the ugly url. I am waiting for DNS resolution (I think).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://d3hljalhk8t8so.cloudfront.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jonasangstrom
