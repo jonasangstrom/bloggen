@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Feel free to get in touch via linked [linkedin](https://www.linkedin.com/in/jonasangstrom/)in or [email](mailto:jonas.aangstroem@gmail.com).
