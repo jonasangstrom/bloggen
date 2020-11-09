@@ -4,4 +4,4 @@ title: Categories
 permalink: /categories/
 robots: noindex
 ---
-Test
+about

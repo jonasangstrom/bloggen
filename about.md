@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about.html
+permalink: /about/about.html
 ---
 I am a materials scientist/chemist and data scientist who is **looking for a new job** in or close to Uppsala. I have been programming Python for 5 years, especially for data analysis, machine learning and similar things. 
 
