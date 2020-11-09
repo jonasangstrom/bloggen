@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Feel free to get in touch via [linkedin](https://www.linkedin.com/in/jonasangstrom/)in or [email](mailto:jonas.aangstroem@gmail.com).
+I am a materials and data scientist looking for new job opportunities. Feel free to get in touch via [linkedin](https://www.linkedin.com/in/jonasangstrom/) or [email](mailto:jonas.aangstroem@gmail.com).
