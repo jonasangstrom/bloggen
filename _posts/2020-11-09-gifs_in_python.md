@@ -27,7 +27,7 @@ This is what I came up with:
 
 ```python
 import imageio
-from tqdm import tqdm #tqdm is not necessary, it just adds a progress bar
+from tqdm import tqdm # tqdm is not necessary, it just adds a progress bar
 
 reduce_resolution_by =  4
 reduce_framerate_by = 1
@@ -42,10 +42,11 @@ def get_resolution(input_path):
 	return reader.get_meta_data()['size']
 
 
-def gif_from_mp4(input_path, output_path, reduce_framerate_by=1, reduce_resolution_by=1,
-				 increase_speed_by=1):
+def gif_from_mp4(input_path, output_path, reduce_framerate_by=1,
+                 reduce_resolution_by=1, increase_speed_by=1):
 	x_shape, y_shape = get_resolution(input_path)
-	new_resolution = (x_shape//reduce_resolution_by, y_shape//reduce_resolution_by)
+	new_resolution = (x_shape//reduce_resolution_by,
+                      y_shape//reduce_resolution_by)
 
 	reader = imageio.get_reader(input_path, size=new_resolution)
 
@@ -62,3 +63,4 @@ gif_from_mp4(input_path, output_path, reduce_framerate_by, reduce_resolution_by,
 		     increase_speed_by)
 
 ```
+/Jonas
