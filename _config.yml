@@ -28,7 +28,7 @@ github_username:  jonasangstrom
 
 # Build settings
 markdown: kramdown
-theme: jekyll-athena
+theme: minima
 plugins:
   - jekyll-feed
 
