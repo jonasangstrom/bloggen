@@ -54,7 +54,7 @@ def gif_from_mp4(input_path, output_path, reduce_framerate_by=1,
 	new_fps = fps//reduce_framerate_by
 
 	with imageio.get_writer(output_path, fps=new_fps) as writer:
-		for i,im in tqdm(enumerate(reader)):
+		for i, im in tqdm(enumerate(reader)):
 			if i%(reduce_framerate_by*increase_speed_by) == 0:
 				writer.append_data(im)
 
