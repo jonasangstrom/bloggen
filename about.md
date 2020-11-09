@@ -3,8 +3,6 @@ layout: page
 title: About
 permalink: /about.html
 ---
-![me](images/0.jpg)
-
 I am a materials scientist/chemist and data scientist who is **looking for a new job** in or close to Uppsala. I have been programming Python for 5 years, especially for data analysis, machine learning and similar things. 
 
 The main focus of my research has been metals, batteries and diffraction techniques. I have also worked with tomography and scaling up wet chemical synthesis.
