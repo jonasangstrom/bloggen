@@ -4,13 +4,13 @@ title: gifs in python
 date: 2020-11-09 09:12 +0100
 ---
 I have always made gifs from a set of images in [Gimp](https://www.gimp.org/), but for an upcoming project I
-wanted to make a gif from mp4 file. Doing this in Gimp seemed to be a bit involved including first extracting images in
+wanted to make a gif from a mp4 file. Doing this in Gimp seemed to be a bit involved including first extracting images in
 [VLC](https://www.videolan.org/index.sv.html). So this was a good excuse to learn how to do it in python,
 as I was sure [there must be a better way](https://www.youtube.com/watch?v=wf-BqAjZb8M). 
 
-I found [this script](https://gist.github.com/michaelosthege/cd3e0c3c556b70a79deba6855deb2cc8) using imageio by some
-quick googling which was doing approximately what I wanted. I had imageio installed already but when I ran the code
-I had to install imageio-ffmpeg which was easily done.
+Via some quick googling I found [this script](https://gist.github.com/michaelosthege/cd3e0c3c556b70a79deba6855deb2cc8) using imageio,
+which was doing approximately what I wanted. I had imageio installed already but the code also required installing
+imageio-ffmpeg, which was easily done.
 
 ```bash
 pip install imageio-ffmpeg
@@ -21,7 +21,7 @@ However, I wanted to do some additional things:
 1. Speed up by about 5 times.
 2. Reduce the size of the file
 
-We could achieve 1 and 2 by skipping frames when writing. We can also achieve 2 by lowering the framerate and resolution.
+We can achieve 1 and 2 by skipping frames when writing. We can also achieve 2 by lowering the framerate and resolution.
 This is what I came up with:
 
 
