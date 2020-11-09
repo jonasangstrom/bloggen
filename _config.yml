@@ -23,7 +23,7 @@ email: jonas.aangstroem@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a materials scientist and data scientist looking for new job opportunities.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://d3hljalhk8t8so.cloudfront.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://d3hljalhk8t8so.cloudfront.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jonasangstrom
 
 # Build settings
