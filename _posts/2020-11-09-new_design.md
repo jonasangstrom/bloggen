@@ -17,13 +17,13 @@ link and all the "blog"s to 'about' and it seems to work.
 ```html
 	<nav class="cover-navigation cover-navigation--primary">
 		<ul class="navigation">
-		<li class="navigation__item"><a href="{{ site.baseurl }}/about" title="link to about Jonas"
+		<li class="navigation__item"><a href="{% raw %}{{ site.baseurl }}{% endraw %}/about" title="link to about Jonas"
     	class="about-button">about</a></li>
     	</ul>
 	</nav>
 	<nav class="cover-navigation cover-navigation--primary">
 		<ul class="navigation">
-		<li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to Jonas' blog"
+		<li class="navigation__item"><a href="{% raw %}{{ site.baseurl }}{% endraw %}/#blog" title="link to Jonas' blog"
 		class="blog-button">blog</a></li>
 		</ul>
 	</nav>
