@@ -7,29 +7,31 @@ I wanted to see if you could add additional icons to the index page. Again, this
 I'm really starting to like Jekyll!
 
 I started by duplicating the mail button part of the header.html in _includes:
-```html
-              {% if site.author.email %}
-              <!-- Email -->
-              <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-```
+{% raw %}
+	{% if site.author.email %}
+        <!-- Email -->
+        <li class="navigation__item">
+            <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}
+			"target="_blank">
+            	<i class="icon icon-mail"></i>
+            	<span class="label">Email</span>
+            </a>
+        </li>
+	{% endif %}
+{% endraw %}
 and changed the copy to:
-```html
-              {% if site.author.scholar %}
-              <!-- Scholar -->
-              <li class="navigation__item">
-                <a href="{{ site.author.scholar }}" title="{{ site.author.name }} on Google Scholar" target="_blank">
-                  <i class="icon icon-book"></i>
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-```
+{% raw %}
+    {% if site.author.scholar %}
+        <!-- Scholar -->
+        <li class="navigation__item">
+            <a href="{{ site.author.scholar }}" title="{{ site.author.name }} on Google Scholar"
+			target="_blank">
+            	<i class="icon icon-book"></i>
+            	<span class="label">Email</span>
+            </a>
+        </li>
+    {% endif %}
+{% endraw %}
 
 The icons you can use are available here:
 [Zurb foundations]("https://zurb.com/playground/foundation-icon-fonts-3").
@@ -46,5 +48,8 @@ author:
   scholar: https://scholar.google.com/citations?hl=en&user=pbYHl4UAAAAJ
 ```
 
-
 /Jonas
+
+<iframe src="https://open.spotify.com/embed/track/4tljE9gIKxc5s0Z0VV90VN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+Addendum: I had to [change the code blocks](https://rachelmad.github.io/entries/2016/11/06/code-in-jekyll) to {% raw %} {% raw %} {% endraw %} or they would be interpreted.
