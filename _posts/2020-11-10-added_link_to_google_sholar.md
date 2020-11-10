@@ -29,7 +29,7 @@ and changed the copy to:
             <a href="{% raw %}{{ site.author.scholar }}{% endraw %}" title="{% raw %}{{ site.author.name }{% endraw %}} on Google Scholar"
 			target="_blank">
             	<i class="icon icon-book"></i>
-            	<span class="label">Email</span>
+            	<span class="label">Scholar</span>
             </a>
         </li>
     {% raw %}{% endif %}{% endraw %}
