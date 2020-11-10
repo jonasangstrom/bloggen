@@ -90,6 +90,17 @@
               </li>
               {% endif %}
 
+
+              {% if site.author.scholar %}
+              <!-- Scholar -->
+              <li class="navigation__item">
+                <a href="{{ site.author.scholar }}" title="{{ site.author.name }} on Google Scholar" target="_blank">
+                  <i class="icon icon-book"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+              {% endif %}
+
               <!-- RSS -->
               <li class="navigation__item">
                 <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">
