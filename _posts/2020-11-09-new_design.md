@@ -10,7 +10,7 @@ removing Gemfile.lock and adding it to the .gitignore  (I know almost nothing ab
 during the build. I guess its supposed to do a check that the build environments(?) are the same, so it may not be ideal).
 2. The site built into another directory, _site, instead of public, so I changed the destination in the _config.yml or the build
  failed in Travis-CI.
-3. I wanted to attribute the background image (am almost 100 year old areal photography of the ironworks in the village I grew up in) to its source.
+3. I wanted to attribute the background image (a 90 year old areal photography of the ironworks in the village I grew up in) to its source.
 I added this by changing the _footer.html in _includes.
 4. I wanted an *about* section. This was easier than I thought, I just copied the blog button code, pasted it above and changed the
 link and all the "blog"s to 'about' and it seems to work.
