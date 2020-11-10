@@ -12,8 +12,7 @@ I started by duplicating the mail button part of the header.html in _includes:
 	{% raw %}{% if site.author.email %}{% endraw %}
         <!-- Email -->
         <li class="navigation__item">
-            <a href="mailto:{% raw %}{{ site.author.email }}{% endraw %}" title="Email {% raw %}{{ site.author.email }}{% endraw %}
-			"target="_blank">
+            <a href="mailto:{% raw %}{{ site.author.email }}{% endraw %}" title="Email {% raw %}{{ site.author.email }}{% endraw %} "target="_blank">
             	<i class="icon icon-mail"></i>
             	<span class="label">Email</span>
             </a>
@@ -26,8 +25,7 @@ and changed the copy to:
     {% raw %}{% if site.author.scholar %{% endraw %}}
         <!-- Scholar -->
         <li class="navigation__item">
-            <a href="{% raw %}{{ site.author.scholar }}{% endraw %}" title="{% raw %}{{ site.author.name }{% endraw %}} on Google Scholar"
-			target="_blank">
+            <a href="{% raw %}{{ site.author.scholar }}{% endraw %}" title="{% raw %}{{ site.author.name }{% endraw %}} on Google Scholar" target="_blank">
             	<i class="icon icon-book"></i>
             	<span class="label">Scholar</span>
             </a>
