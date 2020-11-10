@@ -18,7 +18,7 @@ I started by duplicating the mail button part of the header.html in _includes:
               </li>
               {% endif %}
 ```
-and changed the copy it to:
+and changed the copy to:
 ```html
               {% if site.author.scholar %}
               <!-- Scholar -->
