@@ -2,6 +2,7 @@
 layout: post
 title: gifs in python
 date: 2020-11-09 09:12 +0100
+tags: [python, images, gif]
 ---
 I have always made gifs from a set of images in [Gimp](https://www.gimp.org/), but for an upcoming project I
 wanted to make a gif from a mp4 file. Doing this in Gimp seemed to be a bit involved including first extracting images in

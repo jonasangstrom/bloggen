@@ -2,6 +2,7 @@
 layout: post
 title: back in the saddle with Keras
 date: 2020-11-04 14:44 +0100
+tags: [keras, tensorflow, python, cuda, machine learning]
 ---
 
 My wife saw some art made by a style-transfer AI for sale and wanted to buy it. I used a style transfer

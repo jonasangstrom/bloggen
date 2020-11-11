@@ -2,6 +2,7 @@
 layout: post
 title: new theme!
 date: 2020-11-09 21:54 +0100
+tags: [jekyll, blog]
 ---
 I didn't like the way syntax highlighting looked in athena so I decided to change the Jekyll theme to
 [Jekyll-uno](https://github.com/joshgerdes/jekyll-uno). It was reasonably easy. I ran in to a couple of minor problems:

@@ -2,6 +2,7 @@
 layout: post
 title: added link to google scholar
 date: 2020-11-10 11:02 +0100
+tags: [jekyll, blog]
 ---
 I wanted to see if you could add additional icons to the index page. Again, this was surprisingly easy.
 I'm really starting to like Jekyll!
