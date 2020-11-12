@@ -4,7 +4,7 @@ title: local build
 date: 2020-11-11 11:02 +0100
 tags: [jekyll, blog, AWS]
 ---
-[travis-ci.com]https://travis-ci.com/) has some type of credits ticking down (it is unclear to me 
+[travis-ci.com](https://travis-ci.com/) has some type of credits ticking down (it is unclear to me 
 how I am supposed to get mote) and I have realized I don't really need real continuos integration.
 So I just added a script to build locally and upload to the s3 bucket via the aws cli. There may be
 some downside to this I do not understand. If I want to have parts of the
