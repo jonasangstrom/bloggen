@@ -1,7 +1,7 @@
 ---
 layout: post
 title: local build
-date: 2020-11-11 11:02 +0100
+date: 2020-11-11 21:31 +0100
 tags: [jekyll, blog, AWS]
 ---
 [travis-ci.com](https://travis-ci.com/) has some type of credits ticking down with every build
