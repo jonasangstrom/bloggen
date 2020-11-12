@@ -32,4 +32,7 @@ link and all the "blog"s to 'about' and it seems to work.
 This may be super hacky, I am not very good at .html, but it seems to work.
 
 Anyway, I am really happy with the new look.
+
 /Jonas
+
+<iframe src="https://open.spotify.com/embed/track/2CGi0kPFzrErHlYjzQpLAh" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
