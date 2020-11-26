@@ -152,3 +152,6 @@ read write access to the s3 bucket and ability to write logs
 # Adding plotting
 To be able to read the file and plot I plan to use pandas and matplotlib. This is one of the reasons
 I went with chalice in the first place. Implementing the first function in AWS and bundling it with
+with the request manually was quite straight forward. Doing the same with pandas and matplotlib,
+which both are dependent on numpy, was not as easy. One can make custom machine images but I wanted
+to try this first.
