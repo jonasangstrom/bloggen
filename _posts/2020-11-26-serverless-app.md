@@ -15,12 +15,11 @@ write an app that:
 4. Saves the plot to a public s3 bucket for display on my website
 
 I decided on using the chalice framework and continuos deployment in AWS.  I am basing
-this project on what I learned from the EXCELLENT on
+this project on what I learned from
 [this](https://www.linkedin.com/learning/deploying-rest-services-with-chalice-for-aws/)
-chalice course on linkedin learning by Lawrence Ogrodnek. It is mainly focused on RESTapis,
-but we there are enough hints about how to do what I want to do to get me started in, what I
-hope is the right direction. This project requires that you have the aws setup and the aws-cli, git
-and anaconda installed.
+ EXCELLENT chalice course on linkedin learning by Lawrence Ogrodnek. It is mainly focused on
+ RESTapis, but there are enough hints about how to do what I want to do to get me started.
+ This project requires aws setup and the aws-cli, git and anaconda installed.
 
 1st I created a new folder for the project and setup new environment in conda with chalice and boto3.
 
