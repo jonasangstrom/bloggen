@@ -32,25 +32,25 @@ using 3.8 created errors during the deployment face
 I accepted the location and then ran:
 
 ```bash
-    conda activate fhm
-    pip install chalice
-    pip install boto3
+conda activate fhm
+pip install chalice
+pip install boto3
 ```
 
 In our folder we initialize and move into our new project
 
 ```bash
-    chalice new-project fhm-plot-data
-    cd fhm_plot_data
+ chalice new-project fhm-plot-data
+ cd fhm_plot_data
 ```
 I used _ insteead of - first and this was not liked by code deploy.
 # Continuos deployment
 This section deals with setting up continuos deployment, it is not necessary to make the app deploy and run. I want to try continuos integration using AWS services:
 
 ```bash
-    chalice generate-pipeline --pipeline-version v2 buildspec.yml pipeline.json  
-    aws cloudformation deploy --stack-name fhm-pipeline --template-file pipeline.json --capabilities CAPABILITY_IAM
-    git init
+ chalice generate-pipeline --pipeline-version v2 buildspec.yml pipeline.json  
+ aws cloudformation deploy --stack-name fhm-pipeline --template-file pipeline.json --capabilities CAPABILITY_IAM
+ git init
 ```
 I got a lot of errors and I think the code above should give you what I ended upp doing. (I ran
 multiple versions of chalice generate until I had something that let met trough the build without error)
@@ -58,8 +58,8 @@ multiple versions of chalice generate until I had something that let met trough 
 added the following to .gitignore:
 
 ```
-    *.pyc
-    __pycashe__/
+*.pyc
+__pycashe__/
 ```
 and committed
 ```bash
@@ -78,8 +78,8 @@ I copied the url from aws code commit
 
 and ran:
 ```bash
-    git remote add origin https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/fhm-plot-data
-    git push origin master
+git remote add origin https://git-codecommit.eu-north-1.amazonaws.com/v1/repos/fhm-plot-data
+git push origin master
 ```
 
 And after trying multiple versions of the pipeline.yml for a couple of hours it worked!
