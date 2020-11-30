@@ -1,7 +1,7 @@
 ---
 layout: post
 title: serverless app 2
-date: 2020-11-27 10:10 +0100
+date: 2020-11-30 09:55 +0100
 tags: [AWS, lambda, serverless, corona]
 ---
 Continued from [serverless app]({{ site.baseurl }}{% link _posts/2020-11-26-serverless-app.md %})
