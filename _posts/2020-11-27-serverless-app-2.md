@@ -6,17 +6,18 @@ tags: [AWS, lambda, serverless, corona]
 ---
 Continued from [serverless app]({{ site.baseurl }}{% link _posts/2020-11-26-serverless-app.md %})
 
-Another interesting source of for following corona in sweden is the number of dead this yes
+Another interesting source of for following corona in sweden is the number of dead this year 
 from all causes compared to the number of dead previous years. This data is published every
-monday. My plan is to expand our app into several independent lambda functions. I want to
+monday. My plan is to expand the app into several independent lambda functions. I want to
 add one that downloads the all causes death data on mondays and separate the plotting function
 to a separate lambda function. A lambda function can be triggered by a put event in an s3 bucket,
 but this does not work when using continuos deployment. Therefore I switched to doing deployment
-using chalice deploy. This is nice as we can separate the functions doing the downloading and plotting as we will now have two separate download functions which should trigger the same plotting
+using chalice deploy. This is nice as we can separate the functions doing the downloading and 
+plotting as we will now have two separate download functions which should trigger the same plotting
 function. The not so nice thing is that all the work I did on getting continuos integration to work
 is for naught.
 
-Another nice thing I found is that chalice can create a layer of the packages we use instead of
+Another nice thing I found is that chalice can create a layer of the packages instead of
 including them in the lambda function. This makes the the lambda functions very much leaner taking
 up much less space. This is done by adding the following to the config.json:
 
@@ -24,7 +25,7 @@ up much less space. This is done by adding the following to the config.json:
   "automatic_layer": true
 ```
 
-I added the get_scb_function added the s3 trigger to the update corona plot function and
+I added the get_scb_function and the s3 trigger to the update corona plot function, and
 refactored out some reused code as functions. (this is only part of the code)
 ```python
 @app.schedule(Cron(14, 13, '?', '*', 'MON-FRI', '*'))
@@ -84,5 +85,6 @@ and I will do a separate post on that. Now the application looks like this:
 ![app](/images/fhm/app1.png)
     
 
+<iframe src="https://open.spotify.com/embed/track/18kX8sPoqshqv0GtEOziTx" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 /Jonas
