@@ -294,5 +294,8 @@ the resulting plot publicly available I went into the s3 bucket and updated the 
 There is now public access to the image of the plot and we can display it here:
 ![corona graph](https://folkhalso.s3.eu-north-1.amazonaws.com/coronaplot.png)
 
+continues with
+[serverless app 2]({{ site.baseurl }}{% link _posts/2020-11-27-serverless-app-2.md %})
+
 <iframe src="https://open.spotify.com/embed/track/3OcBH9Vzd1UwJkQd3r1dVG" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 /Jonas
